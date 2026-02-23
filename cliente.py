@@ -46,7 +46,7 @@ cliente.send(usuario.encode('utf-8'))
 
 # Hilo para recibir mensajes
 hilo_recibir = threading.Thread(target=recibir_mensajes, args=(cliente,))
-hilo_recibir.daemon = True  # para que cierre con Ctrl+C
+hilo_recibir.daemon = True 
 hilo_recibir.start()
 
 # Bucle principal para enviar mensajes
@@ -69,3 +69,4 @@ while True:
         limpiar_pantalla()
         for msg in historial_local[-20:]:
             print(msg)
+
