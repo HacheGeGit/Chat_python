@@ -1,4 +1,4 @@
-# Sistema de Chat en Tiempo Real en Python
+# Sistema de Chat en Tiempo Real en Python para terminal.
 
 Proyecto académico que implementa un chat en tiempo real utilizando Python y sockets. Consta de dos componentes:
     -Servidor: maneja las conexiones de múltiples clientes, envía el historial de mensajes y reenvía los mensajes a todos los clientes conectados.
